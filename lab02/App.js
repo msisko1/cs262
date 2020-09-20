@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import {
   StyleSheet, Text, View, Button, TextInput, FlatList
@@ -16,44 +15,48 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Enter name:</Text>
       <TextInput
         style={styles.input}
         placeholder='Enter Name'
+        placeholderTextColor='#333'
         onChangeText={(val) => setName(val)} />
 
-      <Text>{name} is {age} years old.</Text>
+      <Text style={styles.baseText}>{name} is {age} years old.</Text>
       <View style={styles.buttonContainer}>
-        <Button title='Birthday' onPress={clickHandler} />
+        <Button title='Birthday' color='#F0F' onPress={clickHandler} />
       </View>
 
       <FlatList
         data={birthdays}
-        renderItem={({ item }) => <Text>{item.key}</Text>}
+        renderItem={({ item }) => <Text style={styles.baseText}>{item.key}</Text>}
       />
-
-    </View>
+    </View >
   );
 }
 
 const styles = StyleSheet.create({
+  baseText: {
+    color: '#FFF',
+  },
+
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    paddingTop: 30,
+    backgroundColor: '#000',
+    paddingTop: 60,
     alignItems: 'center',
     textAlignVertical: "top",
   },
 
   buttonContainer: {
-    marginTop: 10,
+    margin: 10,
   },
 
   input: {
-    borderWidth: 1,
-    borderColor: '#000',
+    borderWidth: 2,
+    borderColor: '#FFF',
+    color: '#FFF',
     padding: 8,
-    marginTop: 10,
+    margin: 10,
     width: 200,
   },
 
