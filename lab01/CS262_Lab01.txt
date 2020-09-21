@@ -1,0 +1,55 @@
+Michael Sisko 
+Professor Vander Linden 
+CS-262/L Software Engineering 
+15 September 2020 
+Lab 01 – Getting Familiar 
+
+Identify two possible team projects for this semester, both portable apps, but of the following two sorts.
+An application that you think is both interesting and tractable
+	+What's For Dinner? - This app would require the user to input a list of ingredients, and return the user a list of recipes that can be made with those ingredients. These recipes can be ordered by cook-time, prep-time, total-time, number of ingredients used, or skill level required.
+A wacky application that would really be sweet — Who cares if it can be built or not.
+	+AutoPart Identifier - This app would prompt the user for few pictures of the car part at hand, following this, the app would identify potential matching parts. For each potential match, the app would provide a list of URL's showing where the part can be purchased and its ID number. It would also provide a list of compatible Makes and Models for that part.
+
+Demographics 
+What is your class level? 
+	+Senior 
+What is your major? 
+	+BCS 
+What letter grades did you get in CS 112 
+	+I achieved a high B in CS112, 
+	+I am taking CS212 concurrently with this course. 
+
+Technical 
+Have you worked on any of the following things: 
+JavaScript:  
+	+I am currently in the process of learning JS, CSS, and HTML 
+SQL database systems:  
+	+Little to no experience. 
+If so, what (briefly) have you done?  
+	+Just the simple basics. 
+
+Have you used any of the following tools: 
+Slack:  
+	+No but I am open and interested in learning different collaborative software. I have heard great things about Slack.
+Trello:  
+	+I am completely inexperienced with Trello but I am willing to and happy to familiarize myself. 
+Git and/or GitHub:  
+	+I am somewhat more familiar with GitHub, but I still have some headway to make. 
+If so, what have you used and how (briefly) have you used it?  
+	+I use GitHub to store and easily access my work I have completed from other CS courses I have taken for referential purposes. 
+What project or projects would you like to work on. Include at least one tractable project, say from the previous lab exercise or from the suggested projects in the team project specification.  
+	+I am interested in working on an application where the user provides 	a list of ingredients within their kitchen and the program returns a list of recipes that the user could make with listed ingredients, this list also includes estimated preparation and cooking times. As a college student, it is often difficult to come up with ideas for meals especially with somewhat limited ingredients. This app, called “What’s For Dinner?” Will attempt to make this problem more palatable. I am also open and willing to work with others as far as what makes the most sense, and be flexible. 
+If you’d like, talk to other students or use the Moodle forum to form groups interested in particular project ideas.  
+
+Personality 
+What is your big-five personality type? Please include these scores in your lab solution and, if you haven’t already done so, enter them using this form as well: CS 262 - Personality Traits. (See the reading guide for how to determine this. Please, give the five trait values only.) 
+	Openness		– 81% 
+	Conscientiousness 	– 73% 
+	Extraversion		– 75% 
+	Agreeableness		– 62.5% 
+	Neuroticism		– 27% 
+Is there anyone you’d really like (or not like!) to work with? We’ll do our best to honor your requests here. 
+	+I live with Ryan Vreeke, so he would be my first choice, I am also very familiar with Esther Cha, Leo Kim, among some others who are not immediately coming to mind. 
+Is there anything else you’d like us to know about you before assigning you to a project team?  
+	+Not particularly, I think I am all set! 
+Save your answers in an ASCII file (teams.txt) so that you can submit them as part of this lab assignment. If you work on a team of two students, please put both of your names in this file. 
