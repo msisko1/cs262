@@ -1,11 +1,7 @@
 ﻿--
 -- This SQL script builds a monopoly database, deleting any pre-existing version.
 --
--- @modified by: Michael Sisko
--- @date modified: 10/18/2020
---
--- @author kvlinden
--- @version Summer, 2015
+-- @author msisko1
 --
 
 -- Drop previous versions of the tables if they they exist, in reverse order of foreign keys.
@@ -35,12 +31,12 @@ CREATE TABLE Player (
 	);
 
 CREATE TABLE PlayerGame (
-    gameID integer REFERENCES Game(ID),
-    playerID integer REFERENCES Player(ID),
-    score integer,
-    cash integer,
-	  position varchar(50) NOT NULL,
-    PRIMARY KEY (gameID, playerID)
+  gameID integer REFERENCES Game(ID),
+  playerID integer REFERENCES Player(ID),
+  score integer,
+  cash integer,
+	position varchar(50) NOT NULL,
+  PRIMARY KEY (gameID, playerID)
 	);
 
 -- Allow users to select data from the tables.
